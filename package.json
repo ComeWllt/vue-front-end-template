@@ -7,6 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit --require tests/unit/setup.js",
     "buildLocContainer": "docker build -t vue-front-end-template .",
     "runLocContainer": "docker run --name vue-front-end-template -it -p 80:80 --rm -d vue-front-end-template",
     "bndLoc": "npm run build && npm run buildLocContainer && npm run runLocContainer",
@@ -23,7 +24,10 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-unit-mocha": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "chai": "^4.1.2",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
     "prettier": "^1.14.3",
