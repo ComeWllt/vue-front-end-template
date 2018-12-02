@@ -1,10 +1,10 @@
 <template>
   <v-app>
-    <TheNavBar class="d-inline-block elevation-12" />
-    <div id="viewContainer" class="fill-height">
-      <router-view />
-    </div>
-    <TheFooter />
+    <TheNavBar class="d-inline-block elevation-12"/>
+    <v-content>
+      <router-view/>
+    </v-content>
+    <TheFooter/>
   </v-app>
 </template>
 
@@ -25,8 +25,5 @@ export default {
 #app {
   font-family: Roboto, Helvetica Neue, sans-serif;
   background-color: #f5f6f8;
-}
-#viewContainer {
-  margin-bottom: 50px;
 }
 </style>

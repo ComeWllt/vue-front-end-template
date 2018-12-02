@@ -1,6 +1,9 @@
 <template>
-  <v-footer :fixed="false" color="primary" dark class="pa-3" app>
-    <span>&copy; 2018 - <strong>Company</strong></span>
+  <v-footer color="primary" dark class="pa-3" app>
+    <span>
+      &copy; 2018 -
+      <strong>Company</strong>
+    </span>
   </v-footer>
 </template>
 
