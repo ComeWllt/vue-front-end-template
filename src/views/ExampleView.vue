@@ -1,6 +1,6 @@
 <template>
   <v-container fluid grid-list-lg text-md-center>
-    <HelloWorld />
+    <HelloWorld/>
   </v-container>
 </template>
 

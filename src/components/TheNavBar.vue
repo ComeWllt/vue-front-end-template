@@ -5,7 +5,7 @@
       &nbsp;
       <span class="caption">{{ version }}</span>
     </v-toolbar-title>
-    <v-spacer />
+    <v-spacer/>
     <v-toolbar-items>
       <v-btn flat @click="onRouteClick('example')">Example</v-btn>
     </v-toolbar-items>

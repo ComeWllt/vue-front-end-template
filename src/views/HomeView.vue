@@ -1,7 +1,5 @@
 <template>
-  <v-container fluid grid-list-lg text-md-center>
-    Home view
-  </v-container>
+  <v-container fluid grid-list-lg text-md-center>Home view</v-container>
 </template>
 
 <script>
